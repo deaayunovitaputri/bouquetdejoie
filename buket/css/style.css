@@ -408,7 +408,7 @@ body {
   cursor: pointer;
 }
 
-/* Footer Styles */
+/* Footer */
 footer {
   background-color: var(--primary);
   text-align: center;
@@ -416,7 +416,6 @@ footer {
   margin-top: 3rem;
 }
 
-/* Social Media Links */
 .footer .socials {
   padding: 1rem 0;
 }
@@ -426,11 +425,11 @@ footer .socials a {
   margin: 1rem;
 }
 
-footer .socials a:hover {
+footer .socials a:hover,
+footer .links a:hover {
   color: var(--bg);
 }
 
-/* Footer Links */
 footer .links {
   margin-bottom: 1.4rem;
 }
@@ -440,11 +439,6 @@ footer .links a {
   padding: 0.7rem 1rem;
 }
 
-footer .links a:hover {
-  color: var(--bg);
-}
-
-/* Credit Section */
 footer .credit {
   font-size: 0.8rem;
 }
